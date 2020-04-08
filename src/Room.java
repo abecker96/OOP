@@ -9,5 +9,8 @@ public class Room
 		roomNum = n;
 	}
 	
-	
+	public getRoomNum()
+	{
+		return roomNum;
+	}
 }

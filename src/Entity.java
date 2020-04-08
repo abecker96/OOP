@@ -8,5 +8,16 @@ public class Entity
 	{
 		this.name = name;
 		this.place = place;
+		
+	}
+	
+	public String getName()
+	{
+		return name;
+	}
+	
+	public int getLocation()
+	{
+		return place.getNum();
 	}
 }
