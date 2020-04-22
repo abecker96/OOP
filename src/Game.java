@@ -27,9 +27,11 @@ public class Game {
 	TitleScreenHandler tsHandler = new TitleScreenHandler();
 	ChoiceHandler choiceHandler = new ChoiceHandler();
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		
-		new Game();
+		Game game1 = new Game();
+		
 	}
 
 	//hello!

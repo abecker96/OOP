@@ -16,8 +16,4 @@ public class Entity
 		return name;
 	}
 	
-	public int getLocation()
-	{
-		return place.getNum();
-	}
 }
