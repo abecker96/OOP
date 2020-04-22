@@ -32,7 +32,7 @@ public class Game {
 		new Game();
 	}
 
-	
+	//hello!
 	public Game() {
 		
 		window = new JFrame();
