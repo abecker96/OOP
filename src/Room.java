@@ -1,16 +1,29 @@
 
 public class Room 
 {
-	private int roomNum;
+	private int roomId;
 	private int[] entities;
+	private Room[] nextRooms;
+	
 	
 	public Room(int n)
 	{
-		roomNum = n;
+		roomId = n;
 	}
 	
-	public getRoomNum()
+	public getRoomId()
 	{
-		return roomNum;
+		return roomId;
 	}
+	
+	
+	public text()
+	{
+		
+		
+		
+		
+	}
+	
+	
 }
